@@ -2,10 +2,143 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Мой сайт</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hay Day — Построй ферму своей мечты!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="color:pink; font-size: 32px;">Обновлено через CI/CD!</h1>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="logo">🌾 HAY DAY</div>
+        <nav>
+            <a href="#about">Об игре</a>
+            <a href="#features">Особенности</a>
+            <a href="#characters">Персонажи</a>
+            <a href="#community">Сообщество</a>
+            <a href="#download">Скачать</a>
+        </nav>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero">
+        <h1>Построй ферму своей мечты!</h1>
+        <p>Выращивай урожай, ухаживай за животными и торгуй с друзьями в самой уютной фермерской игре!</p>
+        <a href="#download" class="btn">🚜 Скачать игру</a>
+    </section>
+
+    <!-- Об игре -->
+    <section id="about" class="about">
+        <h2>Об игре</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hay Day — это легендарный фермерский симулятор от студии Supercell, который покорил сердца миллионов игроков по всему миру!</p>
+                <p>Здесь вы сможете создать свою уникальную ферму: сажать поля, разводить животных, производить товары и торговать с соседями. Каждая ферма — это история, созданная вашими руками!</p>
+                <p>Присоединяйтесь к миллионам фермеров и начните своё уютное приключение уже сегодня! 🌻</p>
+            </div>
+            <div class="about-emoji">
+                🌾🐄🚜🌻
+            </div>
+        </div>
+    </section>
+
+    <!-- Особенности игры -->
+    <section id="features" class="features">
+        <h2>Особенности игры</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🌱</div>
+                <h3>Выращивай урожай</h3>
+                <p>Сажай пшеницу, кукурузу, овощи и фрукты. Собирай богатый урожай и продавай его с выгодой!</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🐔</div>
+                <h3>Ухаживай за животными</h3>
+                <p>Заведи коров, курочек, свинок и овечек. Корми их и получай свежие продукты!</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🤝</div>
+                <h3>Торгуй с друзьями</h3>
+                <p>Продавай товары на рынке, покупай нужные ресурсы и помогай соседям по кооперативу!</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏡</div>
+                <h3>Украшай ферму</h3>
+                <p>Декорируй свою ферму деревьями, цветами и уникальными постройками. Создай ферму мечты!</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎉</div>
+                <h3>Участвуй в событиях</h3>
+                <p>Сезонные мероприятия, фестивали и соревнования с призами. Каждый день что-то новое!</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🗺️</div>
+                <h3>Исследуй территории</h3>
+                <p>Открывай новые земли, рыбачь в пруду, исследуй шахту и находи сокровища!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Персонажи -->
+    <section id="characters" class="characters">
+        <h2>Жители фермы</h2>
+        <div class="characters-grid">
+            <div class="character-card">
+                <div class="character-emoji">🐄</div>
+                <h3>Корова Бурёнка</h3>
+                <p>Даёт свежее молоко каждый день!</p>
+            </div>
+            <div class="character-card">
+                <div class="character-emoji">🐔</div>
+                <h3>Курочка Ряба</h3>
+                <p>Несёт вкусные яички для выпечки!</p>
+            </div>
+            <div class="character-card">
+                <div class="character-emoji">🐷</div>
+                <h3>Поросёнок Хрюша</h3>
+                <p>Любит трюфели и помогает на ферме!</p>
+            </div>
+            <div class="character-card">
+                <div class="character-emoji">🐑</div>
+                <h3>Овечка Пуговка</h3>
+                <p>Даёт мягкую шерсть для одежды!</p>
+            </div>
+            <div class="character-card">
+                <div class="character-emoji">🌽</div>
+                <h3>Кукуруза</h3>
+                <p>Сладкая и сочная, основа многих блюд!</p>
+            </div>
+            <div class="character-card">
+                <div class="character-emoji">🍎</div>
+                <h3>Яблоня</h3>
+                <p>Дарит сочные яблоки для пирогов!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Сообщество -->
+    <section id="community" class="community">
+        <h2>Присоединяйся к сообществу!</h2>
+        <p>Миллионы фермеров уже ждут тебя! Делись опытом, участвуй в кооперативах и стань частью дружной семьи Hay Day!</p>
+        <div class="social-links">
+            <a href="#" class="social-btn">📱 Telegram</a>
+            <a href="#" class="social-btn">🎮 Discord</a>
+            <a href="#" class="social-btn">📺 YouTube</a>
+            <a href="#" class="social-btn">📷 Instagram</a>
+        </div>
+    </section>
+
+    <!-- Скачать -->
+    <section id="download" class="download">
+        <h2>Готов начать фермерствовать?</h2>
+        <p>Скачай Hay Day прямо сейчас и построй ферму своей мечты!</p>
+        <a href="#" class="btn btn-large">📲 Скачать бесплатно</a>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>© 2026 Hay Day Fan Site. Все права защищены.</p>
+        <p>Hay Day является зарегистрированной торговой маркой <a href="https://supercell.com">Supercell</a>.</p>
+        <p>Сайт создан фанатами для фанатов ❤️</p>
+    </footer>
 </body>
 </html>
